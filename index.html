@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tribute Page - Nikola Tesla" />
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navigation">
+      <a href="#home_nav" class="links">Home</a>
+      <a href="#biography_nav" class="links">Biography</a>
+      <a href="#achievements_nav" class="links">Achievements</a>
+      <a href="#predictions_nav" class="links">Predictions</a>
+      <a href="#info_nav" class="links">More Info</a>
+    </nav>
+    <span class="openbtn" onclick="openNav()">&#9776; </span>
+    <nav id="small_nav" class="overlay">
+      <a href="javascript:;" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#home_nav" onclick="closeNav()">Home</a>
+        <a href="#biography_nav" onclick="closeNav()">Biography</a>
+        <a href="#achievements_nav" onclick="closeNav()">Achievements</a>
+        <a href="#predictions_nav" onclick="closeNav()">Predictions</a>
+        <a href="#info_nav" onclick="closeNav()">More Info</a>
+			</div>
+    </nav>
+  </header>
+
+  <main id="main">
+    
+<!-- Main image -->
+
+    <div id="img-div" class="img-div">
+			<img id="image" class="hero-image" src="https://imgur.com/NyX2Upm.jpg" alt="Nikola Tesla" />
+				<div id="img-caption" class="text">
+          <h1 class="title" id="title" >Nikola Tesla</h1>
+					<p class="img-caption" >The man from the future.</p>
+				</div>
+		</div>
+
+<!-- Biography section -->
+
+    <section id="biography">
+			<h2 id="biography_nav">Biography</h2>
+			<div class="tribute-info" id="tribute-info">
+			  <img src="https://i.imgur.com/D58bl74.jpg">
+				<p>Serbian-American inventor Nikola Tesla was born in July of 1856, in what is now Croatia. His interest in electrical invention was likely spurred by his mother, Djuka Mandic, who invented small household appliances in her spare time while her son was growing up. esla came to the United States in 1884, and soon began working with famed inventor and business mogul Thomas Edison. The two worked together for a brief period before parting ways due to a conflicting business-scientific relationship. Tesla was a commercially out-of-tune and somewhat vulnerable, yet extremely pivotal inventor, who pioneered some of history's most important inventions. His 1891 invention, the "Tesla coil," is still used in radio technology today. Poor and reclusive, Nikola Tesla died on January 7, 1943, at the age of 86, in New York City—where he had lived for nearly 60 years. His legacy, however, has been thriving for more than a century, and will undoubtedly live on for decades to come.
+            <a id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Nikola_Tesla"
+            title="Nikola Tesla Biography"
+            target="_blank"
+						>More about Nikola Tesla...</a
+          >
+        </p>
+      </div>
+    </section>
+ 
+<!-- Achievements information -->
+
+    <section id="achievements">
+      <h2 id="achievements_nav">Greatest achievements</h2>
+      <div class="inventions">
+        <div class="inventions-left">
+          <div class="poster">
+            <img
+              src="https://i.imgur.com/7JVzBvW.jpg"
+              alt="Alternating Currents"
+            />
+            <h3>Alternating current</h3><p>Considered one of the most useful inventions of modern times, the induction motor revolutionized the possibilities in the appliance industry. An electric current that reverses its direction many times a second at regular intervals, typically used in power supplies. It caused a stir at the 1893 World's Expo in Chicago, ignting the war of currents.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/MPyjizE.jpg"
+              alt="Fluorescent Bulbs"
+            />
+            <h3>Fluorescent Bulbs</h3>
+  <p>Of course he didn't invent light itself, but he did invent how light can be harnessed and distributed. Tesla developed and used fluorescent bulbs in his lab some 40 years before industry "invented" them.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/0dcTxim.jpg"
+              alt="X-Ray"
+            />
+            <h3>X-Ray</h3><p>Electromagnetic and ionizing radiation was heavily researched in the late 1800s, but Tesla researched the entire gamut. Everything from a precursor to Kirlian photography, which has the ability to document life force.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/EUMdijQ.jpg"
+              alt="Radio"
+            />
+            <h3>Radio</h3>
+  <p>Guglielmo Marconi was initially credited, and most believe him to be the inventor of radio to this day. However, the Supreme Court overturned Marconi's patent in 1943, when it was proven that Tesla invented the radio years previous to Marconi.</p>
+          </div>
+        </div>
+        <div class="inventions-right">
+          <div class="poster">
+            <img
+              src="https://imgur.com/j3t4d5Q.jpg"
+              alt="Remote Control"
+            />
+            <h3>Remote Control</h3>
+  <p>This invention was a natural outcropping of radio. Patent No. 613809 was the first remote controlled model boat, demonstrated in 1898. Utilizing several large batteries and radio signals controlled switches.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/XOOncB5.jpg"
+              alt="Electric Motor"
+            />
+            <h3>Electric Motor</h3>
+  <p>Tesla's invention of a motor with rotating magnetic fields could have freed mankind much sooner from the stranglehold of Big Oil. However, his invention in 1930 succumbed to the economic crisis and the world war that followed.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/WEngtHm.jpg"
+              alt="Tesla Coil"
+            />
+            <h3>Tesla Coil</h3>
+  <p>The Tesla Coil is certainly something that big industry would have liked to suppress: the concept that the Earth itself is a magnet that can generate electricity (electromagnetism) utilizing frequencies as a transmitter.</p>
+          </div>
+          <div class="poster">
+            <img
+              src="https://imgur.com/nX2n7HB.jpg"
+              alt="Wireless Communication"
+            />
+            <h3>Wireless Communication</h3>
+  <p>Tesla built a tower that would use the natural frequencies of our universe to transmit data, including a wide range of information communicated through images, voice messages, and text.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--* predictions--->
+
+    <section id="predictions">
+      <h2 id="predictions_nav">Predictions</h2>
+      <div class="prediction">
+        <h3>1. THE SMARTPHONE</h3>
+        <p class="description">Tesla envisioned a wireless device that would incorporate video and telephone technology and work over a network very much like the Internet.</p>
+        <p class="quote">“When wireless is perfectly applied the whole earth will be converted into a huge brain, which in fact it is, all things being particles of a real and rhythmic whole. We shall be able to communicate with one another instantly, irrespective of distance. Not only this, but through television and telephony we shall see and hear one another as perfectly as though we were face to face, despite intervening distances of thousands of miles; and the instruments through which we shall be able to do his will be amazingly simple compared with our present telephone. A man will be able to carry one in his vest pocket.”</p>
+      </div>
+      <div class="prediction">
+        <h3>2. WI-FI</h3>
+        <p class="description">It follows that a guy who was very much obsessed with wireless technology could envision wi-fi and how wireless devices would work:</p>
+        <p class="quote">“Present wireless receiving apparatus will be scrapped for much simpler machines; static and all forms of interference will be eliminated, so that innumerable transmitters and receivers may be operated without interference. It is more than probable that the household’s daily newspaper will be printed ‘wirelessly’ in the home during the night. Domestic management-the problems of heat, light and household mechanics-will be freed from all labor through beneficent wireless power.”</p>
+      </div>
+      <div class="prediction">
+        <h3>3. AUTOPILOT and SELF-DRIVING CARS</h3>
+        <p class="description">It only took 118 years to make it a reality in an effort led by his namesake company and another larger-than-life innovator in Elon Musk.</p>
+        <p class="quote">“As early as 1898, I proposed to representatives of a large manufacturing concern the construction and public exhibition of an automobile carriage which, left to itself, would perform a great variety of operations involving something akin to judgement”.</p>
+      </div>
+      <div class="prediction">
+        <h3>4. WIRELESS TRANSMISSION OF ENERGY</h3>
+        <p class="description">One of Tesla’s lifelong projects involved wireless transmission of energy across great distances. He saw it as a potential revolution in energy generation and consumption. This is something we are still struggling to understand and implement. </p>
+        <p class="quote">“When the wireless transmission of power is made commercial, transport and transmission will be revolutionized. Already motion pictures have been transmitted by wireless over a short distance. Later the distance will be illimitable, and by later I mean only a few years hence. Pictures are transmitted over wires-they were telegraphed successfully through the point system thirty years ago. When wireless transmission of power becomes general, these methods will be as crude as is the steam locomotive compared with the electric train.”</p>
+      </div>
+      <div class="prediction">
+        <h3>5. PLANES THAT DON’T NEED FUEL</h3>
+        <p class="description">This idea follows from the ability to transmit energy without wires over long distances.</p>
+        <p class="quote">“Perhaps the most valuable application of wireless energy will be the propulsion of flying machines, which will carry no fuel and will be free from any limitations of the present airplanes and dirigibles. We shall ride from New York to Europe in a few hours. International boundaries will be largely obliterated and a great step will be made toward the unification and harmonious existence of the various races inhabiting the globe. Wireless will not only make possible the supply of energy to region, however inaccessible, but it will be effective politically by harmonizing international interests; it will create understanding instead of differences.”</p>
+      </div>
+      <div class="prediction">
+        <h3>6. THOUGHT CAMERA</h3>
+        <p class="description">He expanded on some seemingly outlandish ideas in an interview in 1933. In modern application, this particular invention would be more like an MRI, which can do some of what Tesla is talking about here: </p>
+        <p class="quote">“I expect to photograph thoughts. In 1893, while engaged in certain investigations, I became convinced that a definite image formed in thought, must by reflex action, produce a corresponding image on the retina, which might be read by a suitable apparatus…Now if it be true that a thought reflects an image on the retina, it is a mere question of illuminating the same property and taking photographs, and then using the ordinary methods which are available to project the image on a screen… If this can be done successfully, then the objects imagined by a person would be clearly reflected on the screen as they are formed, and in this way every thought of the individual could be read. Our minds would then, indeed, be like open books.”</p>
+      </div>
+      <div class="prediction">
+        <h3>8. FLYING CARS</h3>
+        <p class="description">It goes without saying that any vision of the future would include flying cars. Tesla’s was no different. Perhaps we finally get this in the next few years?</p>
+        <p class="quote">“I foresee the development of the flying machine exceeding that of the automobile, and I expect Mr.  Ford to make large contributions toward this progress.  The problem of parking automobiles and furnishing separate roads for commercial and pleasure traffic will be solved.  Belted parking towers will arise in our large cities, and the roads will be multiplied through sheer necessity, or finally rendered unnecessary when civilization exchanges wheels for wings.”</p>
+      </div>
+    </section>
+
+  <!-- info section -->
+
+    <section id="info">
+      <h2 id="info_nav">More information</h2>
+        <div class="content-logos">
+          <div class="logo">
+            <a
+              id="tribute-link"
+              href="https://en.wikipedia.org/wiki/Nikola_Tesla"
+              title="Nikola Tesla Biography"
+              target="_blank"
+              ><img
+                src="https://img.icons8.com/windows/40/000000/wikipedia.png"
+                alt="wikipedia logo"
+            />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer  -->
+		<footer>
+			<p>
+				&copy; 2023 Roksana Cieśla &bull;
+				<a href="https://github.com/rogzan" target="_blank">Github</a>
+			</p>
+		</footer>
+
+		<script>
+			function openNav() {
+				document.getElementById("small_nav").style.width = "100%";
+			}
+
+			function closeNav() {
+				document.getElementById("small_nav").style.width = "0%";
+			}
+		</script>
+	</body>
