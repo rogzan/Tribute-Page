@@ -121,13 +121,12 @@ h2 {
 #biography {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
   align-items: center;
   width: 100%;
 }
 
 #biography h2 {
-  margin-top: -60px;
+  margin-top: 0px;
 }
 
 .tribute-info {
