@@ -126,6 +126,10 @@ h2 {
   width: 100%;
 }
 
+#biography h2 {
+  margin-top: -60px;
+}
+
 .tribute-info {
   display: flex;
   flex-direction: row;
