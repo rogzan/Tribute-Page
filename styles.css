@@ -306,6 +306,17 @@ footer a:hover {
 
 /* style navigation bar for small devices -----*/
 
+@media screen and (min-width: 750px) and (max-width: 950px) {
+  .inventions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .inventions-left{
+    margin-bottom: -50px;
+  }
+}
+
 @media screen and (max-width: 750px) {
   header {
     justify-content: flex-end;
@@ -392,10 +403,8 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
-
-  .achievement-left,
-  .achievement-right {
-    width: 100%;
-    overflow-x: auto;
+  
+  .inventions-left{
+    margin-bottom: -50px;
   }
 }
